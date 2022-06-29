@@ -3,7 +3,7 @@ define rm_image
 endef
 
 define pull_image
-	docker pull prantlf/golang-make:$(1)
+	docker pull maisnamraju/golang-make:$(1)
 endef
 
 define lint_dockerfile
