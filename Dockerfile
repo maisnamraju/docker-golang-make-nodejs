@@ -1,4 +1,4 @@
-FROM prantlf/golang-make:latest
-LABEL maintainer="Ferdinand Prantl <prantlf@gmail.com>"
+FROM  maisnamraju/golang-make:latest
+LABEL maintainer="Maisnam Raju <maisnamraju@gmail.com>"
 
 RUN apk add --no-cache nodejs npm
